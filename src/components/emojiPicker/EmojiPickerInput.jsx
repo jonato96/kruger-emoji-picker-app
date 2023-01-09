@@ -7,7 +7,7 @@ const EmojiPickerInput = () => {
     const refInput = useRef(null)
     return(
         <div className={styles.inputContainer}>
-            <input type="text" ref={refInput}/>            
+            <input className={styles.inputMain} type="text" ref={refInput}/>            
             <EmojiPicker ref={refInput}/>
         </div>
     )

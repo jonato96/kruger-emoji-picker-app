@@ -1,8 +1,18 @@
 .inputContainer {
-  display: inline-flex;
-  position: relative;
+  display: inline-block;
+  align-items: center;  
   margin: auto;
+}
 
+.inputMain {
+  padding: 15px 20px;
+  min-width: 200px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 .emojiPickerContainer {
@@ -15,12 +25,16 @@
   flex-direction: column;
   padding: 15px;
   box-sizing: border-box;
+  top: 55px;
+  border-radius: 20px;
 }
 
 .emojiPickerButton {
   display: inline-block;
   border: none;
   cursor: pointer;
+  font-size: 32px;
+  background-color: transparent;
 }
 
 .emojisList {
@@ -31,7 +45,7 @@
 
 .emojiButton {
   border: none;
-  font-size: 28px;
+  font-size: 32px;
   background-color: transparent;
   padding: 5px;
   cursor: pointer;
@@ -49,4 +63,5 @@
   border: none;
   padding: 10px;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
